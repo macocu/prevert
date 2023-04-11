@@ -1,27 +1,27 @@
-# prevert
+# Prevert iterator
 
-Iterator for the prevert format
-
-To use the `prevert` format iterator, install it via pypi with the following command line instruction:
-
-`
-$ pip install prevert
-`
+To use the prevert parser, copy the file `prevert.py` in your directory.
 
 ## Use
 
-```
+```python
 # import libraries
 from prevert import dataset
-# Open the dataset with the prevert parser 
-dset=dataset("/data/monolingual/mk.xml")
+import pandas as pd
 ```
 
-The dataset can be iterated for documents where you can access the metadata by `doc.meta['attribute_name']`. Documents consist of paragraphs where you can access the metadata by `par.meta['attribute_name']`.
+If you are using the MaCoCu corpora in the XML format, the method dataset() needs only the path of the file as the argument:
+
+```python
+# Open the dataset with the prevert parser 
+dset = dataset("/data/monolingual/mk.xml")
+```
+
+
+`dset` consists of docs where you can access the metadata by `doc.meta['attribute_name']`. Docs consist of paragraphs where you can access the metadata by `par.meta['attribute_name']`.
 
 Basic use:
-
-```
+```python
 for doc in dset: # iterating through documents of a dataset
     print(doc.meta) # all attributes
     print(eval(doc.meta['lang_distr'])[0][0]) # most prominent language in the document
