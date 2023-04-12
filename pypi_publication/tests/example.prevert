@@ -1,0 +1,30 @@
+<corpus id="MaCoCu-sl-2.0>
+<doc id="macocu.si.1" title="Hitra sedmica | Hitro dobro in ugodno" crawl_date="2021-07-18" lang_distr="[('sl', 1.0)]" url="http://h7.si/" domain="h7.si" file_type="html" lm_score="0.674">
+<p id="macocu.si.1.1" quality="short" lm_score="0.605" heading="yes">
+Pijača
+</p>
+<p id="macocu.si.1.2" quality="short" lm_score="0.586" heading="yes">
+Dostava
+</p>
+<p id="macocu.si.1.3" quality="short" lm_score="0.531" heading="yes">
+Novo v Ponudbi
+</p>
+<p id="macocu.si.1.4" quality="short" lm_score="0.000" heading="yes">
+€6,0
+</p>
+<p id="macocu.si.1.5" quality="good" lm_score="0.716" lang="sl">
+Bombeta, The AMAZE polpet iz rastlinkih, beljakovin, sir, omaka, paradižnik, solata, čebula Na voljo tudi kot popolnoma veganski burger.
+</p>
+</doc>
+<doc id="macocu.si.2" title="Domena PR.SI je naprodaj" crawl_date="2021-07-18" lang_distr="[('sl', 1.0)]" url="http://www.pr.si/" domain="pr.si" file_type="html" lm_score="0.775">
+<p id="macocu.si.2.1" quality="short" lm_score="0.634" heading="yes">
+Prodamo!
+</p>
+<p id="macocu.si.2.2" quality="short" lm_score="0.000" heading="yes">
+pr.si
+</p>
+<p id="macocu.si.2.3" quality="good" lm_score="0.816" lang="sl">
+Slabo domeno si težko zapomnimo, odlično pa težko pozabimo! TM Dobra domena predstavlja polovico vašega spletnega uspeha.
+</p>
+</doc>
+</corpus>
